@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 
 class Grid extends Component {
     toCSSClasses(number) {
-        const cols = number ? numbers.split('') : []
+        const cols = number ? number.split('') : []
         let classes = ''
 
         if (cols[0]) classes += `col-xs-${cols[0]}`
