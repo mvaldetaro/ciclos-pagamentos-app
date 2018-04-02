@@ -1,7 +1,7 @@
 import React from 'react'
 import { Router, Route, Redirect, hashHistory } from "react-router"
 
-import Dashboard from '../dashboard/dashboard'
+import Dashboard from '../dashboard_sem_redux/dashboard'
 import BillingCycles from '../billingCycle/billingCycle'
 
 export default props => (
