@@ -10,9 +10,7 @@ export default props => (
             </span>
         </a>
         <nav className='navbar navbar-static-top'>
-            <a href className='sidebar-toogle' data-toogle='offcanvas'>
-                toogle
-            </a>
+            <a href='javascript:;' className='sidebar-toogle' data-toogle='offcanvas'></a>
         </nav>
     </header>
 )
