@@ -45,7 +45,7 @@ class BillingCycle extends Component {
                                 <Form onSubmit={this.props.create} />
                             </TabContent>
                             <TabContent id='tabUpdate'>
-                                <Form />
+                                <Form onSubmit={this.props.update}/>
                             </TabContent>
                             <TabContent id='tabDelete'>
                                 <Form />
