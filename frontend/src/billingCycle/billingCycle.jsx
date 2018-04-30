@@ -16,7 +16,7 @@ import List from './billingCycleList'
 import Form from './billingCycleForm'
 
 import {selectTab, showTabs} from '../common/tab/tabActions'
-import { create } from "./billingCycleActions";
+import { create, update } from "./billingCycleActions";
 
 class BillingCycle extends Component {
 
@@ -59,5 +59,5 @@ class BillingCycle extends Component {
 }
 
 /*const mapStateToProps = state => ({summary: state.dashboard.summary})*/
-const mapDispatchToProps = dispatch => bindActionCreators({selectTab, showTabs, create}, dispatch)
+const mapDispatchToProps = dispatch => bindActionCreators({selectTab, showTabs, create, update}, dispatch)
 export default connect(null, mapDispatchToProps)(BillingCycle)
