@@ -5,13 +5,15 @@ import BillingCycleReducer from '../billingCycle/billingCycleReducer'
 // alias formReducer
 import { reducer as formReducer } from 'redux-form'; 
 import { reducer as toastReducer } from 'react-redux-toastr'; 
+import AuthReducer from '../auth/authReducer'
 
 const rootReducer = combineReducers({
     dashboard: DashboardReducer,
     tab: TabReducer,
     billingCycle: BillingCycleReducer,
     form: formReducer,
-    toastr: toastReducer
+    toastr: toastReducer,
+    auth: AuthReducer
 })
 
 export default rootReducer
